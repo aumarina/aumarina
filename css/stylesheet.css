@@ -1,0 +1,270 @@
+/* _________________________general_________________________ */
+* {
+    box-sizing:border-box;
+}
+html {
+    scroll-behavior:smooth;
+    /* cursor:wait; */
+}
+body {
+    font-family:cambria;
+    border:20px solid #00B8F1;
+    margin:0;
+}
+p {
+    font-size: 18px;
+    font-family:calibri;
+}
+.section_title {
+    text-align:center;
+}
+img {
+    /* max-width:100%; */
+    height:auto;
+}
+a {
+    transition:400ms ease;
+}
+/* _________________________rows and columns_________________________ */
+/* "The columns inside a row are all floating to the left, and are therefore
+taken out of the flow of the page, and other elements will be placed as if the
+columns do not exist. To prevent this, we will add a style that clears the flow..." */
+.row::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.col_1 { width:8.33% }
+.col_2 { width:16.66% }
+.col_3 { width:25% }
+.col_4 { width:33.33% }
+.col_5 { width:41.66% }
+.col_6 { width:50% }
+.col_7 { width:58.33% }
+.col_8 { width:66.66% }
+.col_9 { width:75% }
+.col_10 { width:83.33% }
+.col_11 { width:91.66% }
+.col_12 { width:100% }
+[class*="col_"] {
+    float:left;
+    padding:20px;
+}
+
+/* resizes if width is less than 800px*/
+@media only screen and (max-width: 800px) {
+    [class*="col_"] {
+        width:100%;
+    }
+}
+/* _________________________header and footer_________________________ */
+header {
+    padding:30px 0px;
+}
+.footer{
+    padding:30px 50px;
+    text-align:center;
+    /* background-color:#f1f1f1; */
+}
+.footer_links {
+    margin:25px 0px;
+    padding-bottom:2px;
+    font-family:calibri;
+}
+footer a:link {
+    text-decoration:none;
+    color:#000000;
+    font-size:18px;
+}
+footer a:visited {
+    text-decoration:none;
+    font-weight: bold;
+    color:#000000;
+}
+footer a:hover, .active {
+    text-decoration:none;
+    color:#000000;
+    font-weight: bold;
+    box-shadow: 0px 4px #00B8F1;
+}
+footer a:active {
+    text-decoration:none;
+    color:#000000;
+    font-weight:bold;
+}
+/* _________________________navigation bar_________________________ */
+nav {
+    text-align:right;
+    padding:0px 30px;
+}
+.nav_titles {
+    margin:0px 25px;
+    padding-bottom:2px;
+    display:inline-block;
+    text-align:center;
+}
+nav a:link {
+    text-decoration:none;
+    color:#000000;
+    font-size:18px;
+    font-weight: bold;
+}
+nav a:visited {
+    text-decoration:none;
+    font-weight: bold;
+    color:#000000;
+}
+nav a:hover, .active {
+    text-decoration:none;
+    color:#000000;
+    font-weight: bold;
+    box-shadow: 0px 4px #00B8F1;
+}
+nav a:active {
+    text-decoration:none;
+    color:#000000;
+    font-weight:bold;
+}
+/* _________________________home: introduction_________________________ */
+#home_intro {
+    overflow:hidden;
+    /*padding:50px 300px;*/
+    padding:20px 50px;
+    text-align: center;
+}
+#home_intro_baby_me {
+    border-radius:50%;
+    max-width: 200px;
+    position:relative;
+}
+#time {
+    position:relative;
+}
+#time:hover {
+    animation-name:time_animation;
+    animation-duration:1.2s;
+    animation-iteration-count:1;
+    display: inline-block;
+}
+@keyframes time_animation {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) }
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( 0.0deg) }
+   100% { transform: rotate( 0.0deg) }
+}
+/* OPTIONAL
+#time:hover {
+    transform:rotate(10deg);
+    display: inline-block;
+}
+*/
+/* _________________________home: portfolio_________________________ */
+#home_portfolio {
+    overflow:hidden;
+    padding:20px 50px;
+}
+#home_portfolio div {
+    text-align:center;
+}
+#home_portfolio div a {
+    opacity:75%;
+}
+#home_portfolio div a:hover {
+    opacity:100%;
+    transform: translateY(-7px);
+}
+#home_portfolio_vaad, #home_portfolio_mphotography, #home_portfolio_music {
+    border-radius:10px;
+    width:100%;
+    border: 3px solid #00B8F1;
+    box-shadow: 4px 4px #00B8F1;
+}
+
+/* _________________________about: content_________________________ */
+#about_content {
+    overflow:hidden;
+    padding:20px 50px;
+}
+#about_portrait {
+    border-radius:10px;
+    width:100%;
+    border:3px solid #00B8F1;
+}
+/* _________________________portfolio: navigation bars_________________________ */
+#vaad_nav, #m_nav {
+    text-align:center;
+    padding:0px 30px;
+}
+.vaad_nav_titles, .m_nav_titles {
+    margin:0px 25px;
+    padding-bottom:2px;
+    display:inline-block;
+    text-align:center;
+    font-family:calibri;
+}
+#vaad_nav a:link, #m_nav a:link {
+    text-decoration:none;
+    color:#000000;
+    font-size:18px;
+    font-weight:normal;
+}
+#vaad_nav a:visited, #m_nav a:visited {
+    text-decoration:none;
+    font-weight:normal;
+    color:#000000;
+}
+#vaad_nav a:hover, #m_nav a:hover {
+    text-decoration:none;
+    color:#000000;
+    font-weight:bold;
+    box-shadow: 0px 4px #00B8F1;
+}
+#vaad_nav a:active, #m_nav a:active {
+    text-decoration:none;
+    color:#000000;
+    font-weight:bold;
+}
+/* _________________________portfolio: general_________________________ */
+.vaad_images, .mphotography_images {
+    border-radius:10px;
+    width:100%;
+    border:3px solid #00B8F1;
+    margin:10px 0px;
+    display: inline-block;
+}
+.vaad_images:hover, .mphotography_images:hover {
+    transform: scale(1.04);
+}
+#vaad_ld, #vaad_gd, #vaad_i, #vaad_a, #mphotography_section, #m_o, #m_c {
+    overflow: hidden;
+    padding: 0px 100px;
+}
+/* _________________________portfolio: visual arts & design_________________________ */
+.vaad_subtitles {
+    text-align:left;
+}
+/* _________________________portfolio: music_________________________ */
+#m_o #m_c {
+    overflow:hidden;
+}
+.m_subtitles {
+    text-align:left;
+}
+.m_song_titles {
+    font-weight:bold;
+}
+.m_date {
+    font-weight:normal;
+    float:right;
+}
+.m_red {
+    color:red;
+}
+audio {
+    width:100%;
+}
