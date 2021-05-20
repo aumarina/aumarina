@@ -7,5 +7,6 @@ Pronons: she/her <br>
 Favourite food: poutine <br>
 
 ### 📫 Contact me here
-<a href="mailto:marinatnau@gmail.con">email</a> <br>
-<a href="https://www.linkedin.com/in/aumarina/">linkedin</a>
+<a href="mailto:marinatnau@gmail.con">email</a> | 
+<a href="https://www.linkedin.com/in/aumarina/">linkedin</a> | 
+<a href="https://aumarina.github.io/aumarina/">website</a>
