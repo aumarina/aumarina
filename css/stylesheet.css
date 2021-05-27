@@ -47,7 +47,7 @@ a {
     float:left;
     padding:20px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width:800px) {
     [class*="col_"] {
         width:100%;
     }
@@ -57,35 +57,45 @@ a {
 header {
     padding:30px 0px;
 }
-.footer{
-    padding:30px 50px;
+.footer {
+    padding:10px 50px 30px;
     text-align:center;
 }
 .footer_links {
-    margin:25px 0px;
-    padding-bottom:2px;
-    font-family:calibri;
+    margin:0px 5px;
+    width:30px;
 }
-footer a:link {
+footer a:link, footer a:visited {
+    opacity:70%;
+}
+footer a:hover, footer a:active {
+    opacity:100%;
+}
+
+/* _________________________back to top_________________________ */
+.back_to_top {
+    text-align:center;
+}
+.btt_link {
+    margin:0px 30px;
+    padding-bottom:2px;
+}
+.btt_link:link {
     text-decoration:none;
     color:#000000;
     font-size:18px;
+    font-weight:normal;
 }
-footer a:visited {
+.btt_link:visited {
     text-decoration:none;
-    font-weight: bold;
+    font-weight:bold;
     color:#000000;
 }
-footer a:hover, .active {
-    text-decoration:none;
-    color:#000000;
-    font-weight: bold;
-    box-shadow: 0px 4px #00B8F1;
-}
-footer a:active {
+.btt_link:hover, .btt_link:active {
     text-decoration:none;
     color:#000000;
     font-weight:bold;
+    box-shadow: 0px 4px #00B8F1;
 }
 
 /* _________________________navigation bar_________________________ */
@@ -103,17 +113,17 @@ nav a:link {
     text-decoration:none;
     color:#000000;
     font-size:18px;
-    font-weight: bold;
+    font-weight:bold;
 }
 nav a:visited {
     text-decoration:none;
-    font-weight: bold;
+    font-weight:bold;
     color:#000000;
 }
 nav a:hover, .active {
     text-decoration:none;
     color:#000000;
-    font-weight: bold;
+    font-weight:bold;
     box-shadow: 0px 4px #00B8F1;
 }
 nav a:active {
@@ -125,13 +135,12 @@ nav a:active {
 /* _________________________home: introduction_________________________ */
 #home_intro {
     overflow:hidden;
-    /*padding:50px 300px;*/
     padding:20px 50px;
-    text-align: center;
+    text-align:center;
 }
 #home_intro_baby_me {
     border-radius:50%;
-    max-width: 200px;
+    max-width:200px;
     position:relative;
 }
 #time {
@@ -167,13 +176,13 @@ nav a:active {
 }
 #home_portfolio div a:hover {
     opacity:100%;
-    transform: translateY(-7px);
+    transform:translateY(-7px);
 }
 #home_portfolio_vaad, #home_portfolio_mphotography, #home_portfolio_music {
     border-radius:10px;
     width:100%;
-    border: 3px solid #00B8F1;
-    box-shadow: 4px 4px #00B8F1;
+    border:3px solid #00B8F1;
+    box-shadow:4px 4px #00B8F1;
 }
 
 /* _________________________about: content_________________________ */
@@ -214,7 +223,7 @@ nav a:active {
     text-decoration:none;
     color:#000000;
     font-weight:bold;
-    box-shadow: 0px 4px #00B8F1;
+    box-shadow:0px 4px #00B8F1;
 }
 #vaad_nav a:active, #m_nav a:active {
     text-decoration:none;
@@ -228,14 +237,14 @@ nav a:active {
     width:100%;
     border:3px solid #00B8F1;
     margin:10px 0px;
-    display: inline-block;
+    display:inline-block;
 }
 .vaad_images:hover, .mphotography_images:hover {
-    transform: scale(1.04);
+    transform:scale(1.04);
 }
 #vaad_ld, #vaad_gd, #vaad_i, #vaad_a, #mphotography_section, #m_o, #m_c {
-    overflow: hidden;
-    padding: 0px 100px;
+    overflow:hidden;
+    padding:0% 6%;
 }
 
 /* _________________________portfolio: visual arts & design_________________________ */
