@@ -144,7 +144,7 @@ nav a:active {
     position:relative;
 }
 #time {
-    position:static;
+    position:relative;
 }
 #time:hover {
     animation-name:time_animation;
