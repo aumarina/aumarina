@@ -143,6 +143,9 @@ nav a:active {
     max-width:200px;
     position:relative;
 }
+#time {
+    position:static;
+}
 #time:hover {
     animation-name:time_animation;
     animation-duration:1.2s;
