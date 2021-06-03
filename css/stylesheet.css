@@ -12,7 +12,7 @@ body {
     margin:0;
 }
 p {
-    font-size: 18px;
+    font-size:18px;
     font-family:calibri;
 }
 .section_title {
@@ -95,7 +95,7 @@ footer a:hover, footer a:active {
     text-decoration:none;
     color:#000000;
     font-weight:bold;
-    box-shadow: 0px 4px #00B8F1;
+    box-shadow:0px 4px #00B8F1;
 }
 
 /* _________________________navigation bar_________________________ */
@@ -124,7 +124,7 @@ nav a:hover, .active {
     text-decoration:none;
     color:#000000;
     font-weight:bold;
-    box-shadow: 0px 4px #00B8F1;
+    box-shadow:0px 4px #00B8F1;
 }
 nav a:active {
     text-decoration:none;
@@ -197,38 +197,52 @@ nav a:active {
 }
 
 /* _________________________portfolio: navigation bars_________________________ */
-#vaad_nav, #m_nav {
+#portfolio_nav, #vaad_nav, #m_nav {
     text-align:center;
     padding:0px 30px;
 }
-.vaad_nav_titles, .m_nav_titles {
+.portfolio_nav_titles, .vaad_nav_titles, .m_nav_titles {
     margin:0px 25px;
     padding-bottom:2px;
     display:inline-block;
     text-align:center;
     font-family:calibri;
 }
-#vaad_nav a:link, #m_nav a:link {
+#portfolio_nav a:link, #vaad_nav a:link, #m_nav a:link {
     text-decoration:none;
     color:#000000;
     font-size:18px;
     font-weight:normal;
 }
-#vaad_nav a:visited, #m_nav a:visited {
+#portfolio_nav a:visited, #vaad_nav a:visited, #m_nav a:visited {
     text-decoration:none;
     font-weight:normal;
     color:#000000;
 }
-#vaad_nav a:hover, #m_nav a:hover {
+#portfolio_nav a:hover, #vaad_nav a:hover, #m_nav a:hover {
     text-decoration:none;
     color:#000000;
     font-weight:bold;
     box-shadow:0px 4px #00B8F1;
 }
-#vaad_nav a:active, #m_nav a:active {
+#portfolio_nav a:active, #vaad_nav a:active, #m_nav a:active {
     text-decoration:none;
     color:#000000;
     font-weight:bold;
+}
+
+/* _________________________portfolio_________________________ */
+#portfolio_vaad div a, #portfolio_mphotography div a, #portfolio_m div a {
+    opacity:75%;
+}
+#portfolio_vaad div a:hover, #portfolio_mphotography div a:hover, #portfolio_m div a:hover {
+    opacity:100%;
+}
+#portfolio_vaad_a, #portfolio_mphotography_a, #portfolio_music_a {
+    border-radius:10px;
+    width:100%;
+    border:3px solid #00B8F1;
+    box-shadow:4px 4px #00B8F1;
 }
 
 /* _________________________portfolio: general_________________________ */
@@ -242,9 +256,12 @@ nav a:active {
 .vaad_images:hover, .mphotography_images:hover {
     transform:scale(1.04);
 }
-#vaad_ld, #vaad_gd, #vaad_i, #vaad_a, #mphotography_section, #m_o, #m_c {
+#portfolio_vaad, #portfolio_mphotography, #portfolio_m, #vaad_ld, #vaad_gd, #vaad_i, #vaad_a, #mphotography_section, #m_o, #m_c {
     overflow:hidden;
     padding:0% 6%;
+}
+.portfolio_subtitles {
+    text-align:left;
 }
 
 /* _________________________portfolio: visual arts & design_________________________ */
