@@ -195,6 +195,9 @@ nav a:active {
     width:100%;
     border:3px solid #00B8F1;
 }
+#about_portrait:hover {
+    transform:scale(1.04);
+}
 
 /* _________________________portfolio: navigation bars_________________________ */
 #portfolio_nav, #vaad_nav, #m_nav {
