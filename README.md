@@ -1,5 +1,5 @@
 ## Hey, I'm Marina Au!
-Currently a grade 11 high school student based in Ontario, Canada.
+Currently a grade 12 high school student based in Ontario, Canada.
 
 ### 🌱 Some facts about me
 Birthday: December 25th <br>
