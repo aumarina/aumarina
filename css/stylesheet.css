@@ -4,7 +4,6 @@
 }
 html {
     scroll-behavior:smooth;
-    /* cursor:wait; */
 }
 body {
     font-family:cambria;
@@ -26,9 +25,6 @@ a {
     transition:400ms ease;
 }
 /* _________________________rows and columns_________________________ */
-/* "The columns inside a row are all floating to the left, and are therefore
-taken out of the flow of the page, and other elements will be placed as if the
-columns do not exist. To prevent this, we will add a style that clears the flow..." */
 .row::after {
     content:"";
     clear:both;
@@ -51,8 +47,6 @@ columns do not exist. To prevent this, we will add a style that clears the flow.
     float:left;
     padding:20px;
 }
-
-/* resizes if width is less than 800px*/
 @media only screen and (max-width:800px) {
     [class*="col_"] {
         width:100%;
@@ -65,7 +59,6 @@ header {
 .footer {
     padding:10px 50px 30px;
     text-align:center;
-    /* background-color:#f1f1f1; */
 }
 .footer_links {
     margin:0px 5px;
@@ -138,7 +131,6 @@ nav a:active {
 /* _________________________home: introduction_________________________ */
 #home_intro {
     overflow:hidden;
-    /*padding:50px 300px;*/
     padding:20px 50px;
     text-align:center;
 }
@@ -166,12 +158,6 @@ nav a:active {
     60% { transform: rotate( 0.0deg) }
    100% { transform: rotate( 0.0deg) }
 }
-/* OPTIONAL
-#time:hover {
-    transform:rotate(10deg);
-    display: inline-block;
-}
-*/
 /* _________________________home: portfolio_________________________ */
 #home_portfolio {
     overflow:hidden;
