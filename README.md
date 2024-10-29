@@ -1,16 +1,13 @@
-## Hi there 👋
+## Hey there! Marina here.
 
-<!--
-**aumarina/aumarina** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hi! My name is Marina Au, and I’m an Interaction Design student at Sheridan College. I am passionate about all things design, and love creating small moments of joy for people by producing meaningful & impactful products for the world.
 
-Here are some ideas to get you started:
+Currently I'm honing my skills in:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🎨 Visual design
+
+- 📝 User research,
+
+- 💻 Front-end web development,
+
+- ✨ And more!
