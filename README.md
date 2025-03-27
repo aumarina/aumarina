@@ -1,4 +1,4 @@
-## Hey there! Marina here.
+## Hey there! I'm Marina ☀️
 
 Hi! My name is Marina Au, and I’m an Interaction Design student at Sheridan College. I am passionate about all things design, and love creating small moments of joy for people by producing meaningful & impactful products for the world.
 
